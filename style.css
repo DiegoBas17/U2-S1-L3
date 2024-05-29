@@ -29,7 +29,6 @@ nav {
 .buttonNav {
     background-color:#F3DF85;
     border: none;
-    height: 2rem;
     border-radius: 20px;
     padding-inline: 0.9rem;
     padding-block: 0.5rem;
@@ -41,9 +40,8 @@ nav {
     width: 1.3rem;
 }
 .SHOP {
-    height: 3.5rem;
     border-radius: 80px;
-    font-size: 1.3rem;
+    font-size: 1.6rem;
     font-weight: 900;
     
 }
@@ -131,11 +129,23 @@ h2 {
 @media screen and (min-width: 768px) {
     nav {
         flex-direction: column;
+        height: 100%;
+        justify-content: flex-start;
+        align-items: stretch;
+        border-radius: 0%;
     }
+   .buttonNav {
+    padding-block: 2.5rem;
+    border-radius: 50px;
+    font-size: 1rem;
+   }
     .SHOP {
         order: -1;
     }
     body {
         display: flex;
+        margin: 0;
+        gap: 15px;
     }
+
 }
