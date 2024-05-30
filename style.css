@@ -12,7 +12,7 @@ body {
 h3 {
   font-weight: 800;
 }
-.cardExtralarge {
+#cardExtralarge {
     display: none;
 }
 /* Css della navbar */
@@ -163,7 +163,11 @@ main {
     .card {
         width: 18%;
     }
-    .cardExtralarge {
+    #cardExtralarge {
         display: unset;
+    }
+    article {
+      flex-direction: row;
+      gap: 10px;
     }
 }
