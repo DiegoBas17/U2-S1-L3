@@ -171,3 +171,10 @@ main {
       gap: 10px;
     }
 }
+
+@media screen and (max-width: 575px) {
+  .containerCards {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
